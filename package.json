@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "esbuild --bundle index.js --outdir=dist --minify"
+  },
+  "dependencies": {
+    "esbuild": "^0.11.15",
+    "secp256k1": "^4.0.2"
+  }
+}
